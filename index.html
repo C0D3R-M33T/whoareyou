@@ -6,25 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>whoareyou?</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Eater&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eater&display=swap" rel="stylesheet">
 </head>
-<style>
-    body{
-        background-color: black;
-        color: red;
-        font-size: 50px;
-        font-family: 'Eater', cursive;
-    }
-</style>
 <body>
     <div id="Header">
-        <h1><center>Who are you !!!</center></h1>
+        <h1>Scary Room !!!</h1>
     </div>
-    <video width="320" height="240" controls>
-        <source src="movie.mp4" type="video/mp4">
-        <source src="movie.ogg" type="video/ogg">
+    <div>
+    <video autoplay loop muted id="bgvid">
+        <source src="scary.mp4" type="video/mp4">
         maa chudao, laptop fek do betichod.
     </video>
+    </div>
+    <script>
+        var video = document.getElementById("bgvid");
+    </script>
 </body>
 </html>
